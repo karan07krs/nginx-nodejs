@@ -1,4 +1,4 @@
-FROM node:7.10-alpine
+FROM node:14.4.0-alpine3.10
 MAINTAINER Andreas Krüger <ak@patientsky.com>
 
 RUN apk add --no-cache bash \
